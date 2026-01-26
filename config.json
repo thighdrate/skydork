@@ -1,0 +1,143 @@
+{
+  "COLOR_THEME": {
+    "background": "#000000",
+    "headerBg": "rgba(24, 24, 27, 0.85)",
+    "footerBg": "#18181b",
+    "cardBg": "#1a1625",
+    "cardHover": "#241e35",
+    "text": "#ffffff",
+    "textSecondary": "#e4e4e7",
+    "textMuted": "#b4b4bb",
+    "accent": "#a78bfa",
+    "accentHover": "#c4b5fd",
+    "navButton": "rgba(88, 65, 140, 0.35)",
+    "navButtonHover": "rgba(120, 90, 180, 0.5)",
+    "loadingSpinner": "#a78bfa",
+    "error": "#f87171",
+    "avatarShadow": "rgba(139, 92, 246, 0.4)",
+    "textShadow": "rgba(0, 0, 0, 0.8)",
+    "sidebarButtonBorder": "rgba(139, 92, 246, 0.2)",
+    "sidebarButtonBorderHover": "rgba(167, 139, 250, 0.7)",
+    "sidebarButtonShadow": "rgba(139, 92, 246, 0.2)",
+    "sidebarButtonShadowHover": "rgba(139, 92, 246, 0.5)"
+  },
+  "PROFILE": {
+    "background": "",
+    "avatar": "/assets/avatar.jpg",
+    "name": "Skydarc",
+    "headerDescription": "Latest content from YouTube, Instagram, TikTok & Twitch",
+    "bio": {
+      "line1": "Silly degen vampire VTuber",
+      "line2": "Live TUE / FRI / SUN @ 6 PM CET",
+      "line3": "Here you can find all my socials ♡"
+    },
+    "footer": "Updates every 15 minutes",
+    "seo": {
+      "title": "Skydarc TV | Latest Videos & Streams",
+      "titleShort": "Skydarc TV",
+      "description": "View the latest content from Skydarc across YouTube, Instagram, TikTok, and Twitch in one place. Updates hourly with new posts and videos.",
+      "descriptionShort": "View the latest content from Skydarc across YouTube, Instagram, TikTok, and Twitch in one place.",
+      "author": "Skydarc",
+      "keywords": "Skydarc, YouTube, Instagram, TikTok, Twitch, social media, content feed, vtuber",
+      "siteUrl": "https://skydork.tv/",
+      "themeColor": "#000000",
+      "ogImage": "https://skydork.tv/og-image.png"
+    }
+  },
+  "SOCIAL_LINKS": [
+    {
+      "type": "image",
+      "src": "/assets/image01.png",
+      "height": 200
+    },
+    {
+      "name": "Watch Live on Twitch",
+      "url": "https://twitch.tv/skydarc",
+      "icon": "twitch"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://youtube.com/@skydarcc",
+      "icon": "youtube"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://x.com/skydarc",
+      "icon": "twitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/skydarcc",
+      "icon": "instagram"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://tiktok.com/@skydarcc",
+      "icon": "tiktok"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.gg/skydarc",
+      "icon": "discord"
+    },
+    {
+      "type": "image",
+      "src": "/assets/image02.png",
+      "height": 200
+    },
+    {
+      "name": "Throne",
+      "url": "https://throne.me/u/skydarc",
+      "icon": "crown"
+    },
+    {
+      "name": "Patreon (18+)",
+      "url": "https://www.patreon.com/skydarc",
+      "icon": "patreon"
+    },
+    {
+      "name": "Merch - KitsuneCorners",
+      "url": "https://kitsunecorners.com/collections/skydarc",
+      "icon": "shopping"
+    },
+    {
+      "name": "10% off GamerSupps",
+      "url": "https://gamersupps.gg/?ref=vampire",
+      "icon": "gamersupps"
+    },
+    {
+      "name": "Donate",
+      "url": "https://ko-fi.com/skydarc",
+      "icon": "heart"
+    }
+  ],
+  "FEEDS": {
+    "combineInstagramTikTok": true,
+    "platforms": [
+      {
+        "id": "youtube",
+        "name": "YouTube",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/youtube.json",
+        "color": "#FF0000"
+      },
+      {
+        "id": "instagram",
+        "name": "Instagram",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/instagram.json",
+        "color": "#E4405F"
+      },
+      {
+        "id": "tiktok",
+        "name": "TikTok",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/tiktok.json",
+        "color": "#000000"
+      },
+      {
+        "id": "twitch",
+        "name": "Twitch",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/twitch.json",
+        "color": "#9146FF"
+      }
+    ]
+  }
+}
