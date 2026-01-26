@@ -117,25 +117,25 @@
       {
         "id": "youtube",
         "name": "YouTube",
-        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/youtube.json",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/youtube.json",
         "color": "#FF0000"
       },
       {
         "id": "instagram",
         "name": "Instagram",
-        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/instagram.json",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/instagram.json",
         "color": "#E4405F"
       },
       {
         "id": "tiktok",
         "name": "TikTok",
-        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/tiktok.json",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/tiktok.json",
         "color": "#000000"
       },
       {
         "id": "twitch",
         "name": "Twitch",
-        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/feeds/twitch.json",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/twitch.json",
         "color": "#9146FF"
       }
     ]
