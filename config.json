@@ -126,6 +126,7 @@
   },
   "FEEDS": {
     "combineInstagramTikTok": true,
+    "generateYouTubePlaylist": true,
     "platforms": [
       {
         "id": "youtube",
