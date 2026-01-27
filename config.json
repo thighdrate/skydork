@@ -56,11 +56,6 @@
       "icon": "youtube"
     },
     {
-      "name": "Twitter",
-      "url": "https://x.com/skydarc",
-      "icon": "twitter"
-    },
-    {
       "name": "Instagram",
       "url": "https://instagram.com/skydarcc",
       "icon": "instagram"
@@ -69,6 +64,11 @@
       "name": "TikTok",
       "url": "https://tiktok.com/@skydarcc",
       "icon": "tiktok"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://x.com/skydarc",
+      "icon": "twitter"
     },
     {
       "name": "Discord",
