@@ -1,8 +1,7 @@
 {
   "COLOR_THEME": {
         "background": "#0e0a14",
-        "headerBg": "rgba(167, 139, 250, 0.2)",
-        "footerBg": "#18141f",
+        "headerBg": "rgba(167, 139, 250, 0.1)",
         "cardBg": "#231c2e",
         "text": "#f3e8ff",
         "textSecondary": "#e9d5ff",
