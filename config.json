@@ -1,20 +1,20 @@
 {
   "COLOR_THEME": {
-        "background": "#0e0a14",
-        "headerBg": "rgba(167, 139, 250, 0.1)",
-        "cardBg": "#231c2e",
-        "text": "#f3e8ff",
-        "textSecondary": "#e9d5ff",
-        "textMuted": "#c4b5fd",
-        "accent": "#a78bfa",
-        "navButton": "rgba(167, 139, 250, 0.35)",
-        "navButtonHover": "rgba(196, 181, 253, 0.5)",
-        "loadingSpinner": "#c4b5fd",
+        "background": "#000000",
+        "headerBg": "rgba(88, 65, 140, 0.2)",
+        "cardBg": "#1a1625",
+        "text": "#f6f5f4",
+        "textSecondary": "#e4e4e7",
+        "textMuted": "#b4b4bb",
+        "accent": "#58418c",
+        "navButton": "rgba(88, 65, 140, 0.35)",
+        "navButtonHover": "rgba(120, 90, 180, 0.5)",
+        "loadingSpinner": "#a78bfa",
         "error": "#f87171",
-        "avatarShadow": "rgba(167, 139, 250, 0.5)",
+        "avatarShadow": "rgba(139, 92, 246, 0.4)",
         "textShadow": "rgba(0, 0, 0, 0.8)",
-        "sidebarButtonBorder": "rgba(167, 139, 250, 0.2)",
-        "sidebarButtonBorderHover": "rgba(196, 181, 253, 0.7)"
+        "sidebarButtonBorder": "rgba(139, 92, 246, 0.2)",
+        "sidebarButtonBorderHover": "rgba(167, 139, 250, 0.7)"
   },
   "PROFILE": {
     "background": "",
