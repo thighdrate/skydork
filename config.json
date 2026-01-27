@@ -4,12 +4,10 @@
     "headerBg": "rgba(24, 24, 27, 0.85)",
     "footerBg": "#18181b",
     "cardBg": "#1a1625",
-    "cardHover": "#241e35",
     "text": "#ffffff",
     "textSecondary": "#e4e4e7",
     "textMuted": "#b4b4bb",
-    "accent": "#a78bfa",
-    "accentHover": "#c4b5fd",
+    "accent": "#58418c",
     "navButton": "rgba(88, 65, 140, 0.35)",
     "navButtonHover": "rgba(120, 90, 180, 0.5)",
     "loadingSpinner": "#a78bfa",
@@ -17,9 +15,7 @@
     "avatarShadow": "rgba(139, 92, 246, 0.4)",
     "textShadow": "rgba(0, 0, 0, 0.8)",
     "sidebarButtonBorder": "rgba(139, 92, 246, 0.2)",
-    "sidebarButtonBorderHover": "rgba(167, 139, 250, 0.7)",
-    "sidebarButtonShadow": "rgba(139, 92, 246, 0.2)",
-    "sidebarButtonShadowHover": "rgba(139, 92, 246, 0.5)"
+    "sidebarButtonBorderHover": "rgba(167, 139, 250, 0.7)"
   },
   "PROFILE": {
     "background": "",
@@ -111,9 +107,26 @@
       "icon": "heart"
     }
   ],
+  "BANNER": {
+    "enabled": false,
+    "title": "",
+    "description": "",
+    "width": 100,
+    "expiresEnabled": false,
+    "expiresDate": "",
+    "images": [
+      {
+        "url": "",
+        "height": 200
+      },
+      {
+        "url": "",
+        "height": 200
+      }
+    ]
+  },
   "FEEDS": {
     "combineInstagramTikTok": true,
-    "expandAllContent": true,
     "platforms": [
       {
         "id": "youtube",
