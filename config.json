@@ -1,4 +1,6 @@
 {
+ "GLOBAL_FONT": "'Public Sans', sans-serif",
+ "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
  "COLOR_THEME": {
     "background": "rgba(14, 10, 20, 0.9)",
     "headerBg": "#231c2e",
@@ -46,32 +48,32 @@
       "height": 200
     },
     {
-      "name": "Watch Live on Twitch",
+      "name": "TWITCH",
       "url": "https://twitch.tv/skydarc",
       "icon": "twitch"
     },
     {
-      "name": "YouTube",
+      "name": "YOUTUBE",
       "url": "https://youtube.com/@skydarcc",
       "icon": "youtube"
     },
     {
-      "name": "Instagram",
+      "name": "INSTAGRAM",
       "url": "https://instagram.com/skydarcc",
       "icon": "instagram"
     },
     {
-      "name": "TikTok",
+      "name": "TIKTOK",
       "url": "https://tiktok.com/@skydarcc",
       "icon": "tiktok"
     },
     {
-      "name": "Twitter",
+      "name": "TWITTER",
       "url": "https://x.com/skydarc",
       "icon": "twitter"
     },
     {
-      "name": "Discord",
+      "name": "DISCORD",
       "url": "https://discord.gg/skydarc",
       "icon": "discord"
     },
@@ -81,27 +83,27 @@
       "height": 200
     },
     {
-      "name": "Throne",
+      "name": "THRONE",
       "url": "https://throne.me/u/skydarc",
       "icon": "crown"
     },
     {
-      "name": "Patreon (18+)",
+      "name": "PATREON (18+)",
       "url": "https://www.patreon.com/skydarc",
       "icon": "patreon"
     },
     {
-      "name": "Merch - KitsuneCorners",
+      "name": "MERCH",
       "url": "https://kitsunecorners.com/collections/skydarc",
       "icon": "shopping"
     },
     {
-      "name": "10% off GamerSupps",
+      "name": "10% OFF GAMERSUPPS",
       "url": "https://gamersupps.gg/?ref=vampire",
       "icon": "gamersupps"
     },
     {
-      "name": "Donate",
+      "name": "DONATE",
       "url": "https://ko-fi.com/skydarc",
       "icon": "heart"
     }
