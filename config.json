@@ -21,7 +21,7 @@
   "PROFILE": {
     "background": "/assets/background.jpg",
     "backgroundGradient": true,
-    "backgroundGradientOpacity": 20,
+    "backgroundGradientOpacity": 70,
     "headerRoundedCorners": true,
     "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
