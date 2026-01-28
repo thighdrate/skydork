@@ -4,11 +4,6 @@
   "description": "View the latest content from Skydarc across YouTube, Instagram, TikTok, and Twitch in one place.",
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    },
-    {
       "src": "/favicon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
