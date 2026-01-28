@@ -1,14 +1,14 @@
 {
- "GLOBAL_FONT": "'Public Sans', sans-serif",
- "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
+  "GLOBAL_FONT": "'Public Sans', sans-serif",
+  "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
   "COLOR_THEME": {
-    "background": "rgba(14, 10, 20, 0)",
+    "background": "rgba(14, 10, 20, 0.7)",
     "headerBg": "#1a1625",
     "cardBg": "#231c2e",
     "text": "#f3e8ff",
     "textSecondary": "#e9d5ff",
     "textMuted": "#c4b5fd",
-    "accent": "#5b4b87",
+    "accent": "#a78bfa",
     "navButton": "#443765",
     "navButtonHover": "#696089",
     "loadingSpinner": "#c4b5fd",
@@ -20,9 +20,9 @@
   },
   "PROFILE": {
     "background": "/assets/background.jpg",
-    "backgroundGradient": true,
-    "backgroundGradientOpacity": 50,
-    "headerRoundedCorners": true,
+    "backgroundGradient": false,
+    "backgroundGradientOpacity": 10,
+    "headerRoundedCorners": false,
     "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
     "name": "Skydarc",
@@ -112,7 +112,7 @@
       "icon": "heart"
     }
   ],
-"BANNER": {
+  "BANNER": {
     "enabled": false,
     "title": "The Sky Daki is still available!",
     "description": "Limited supplies - get yours while you can from <a href=\"https://kitsunecorners.com/collections/skydarc\">KitsuneCorners</a>",
