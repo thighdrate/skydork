@@ -1,9 +1,9 @@
 {
  "GLOBAL_FONT": "'Public Sans', sans-serif",
  "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
- "COLOR_THEME": {
-    "background": "rgba(14, 10, 20, 0.8)",
-    "headerBg": "#231c2e",
+  "COLOR_THEME": {
+    "background": "rgba(14, 10, 20, 0)",
+    "headerBg": "#1a1625",
     "cardBg": "#231c2e",
     "text": "#f3e8ff",
     "textSecondary": "#e9d5ff",
@@ -20,6 +20,10 @@
   },
   "PROFILE": {
     "background": "/assets/background.jpg",
+    "backgroundGradient": true,
+    "backgroundGradientOpacity": 20,
+    "headerRoundedCorners": true,
+    "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
     "name": "Skydarc",
     "headerDescription": "Latest content from YouTube, Instagram, TikTok & Twitch",
@@ -108,27 +112,29 @@
       "icon": "heart"
     }
   ],
-  "BANNER": {
+"BANNER": {
     "enabled": false,
-    "title": "",
-    "description": "",
+    "title": "The Sky Daki is still available!",
+    "description": "Limited supplies - get yours while you can from <a href=\"https://kitsunecorners.com/collections/skydarc\">KitsuneCorners</a>",
     "width": 100,
     "expiresEnabled": false,
     "expiresDate": "",
     "images": [
       {
-        "url": "",
+        "url": "assets/daki.webp",
+        "link": "https://kitsunecorners.com/collections/skydarc",
         "height": 200
       },
       {
         "url": "",
+        "link": "",
         "height": 200
       }
     ]
   },
   "FEEDS": {
     "combineInstagramTikTok": true,
-    "generateYouTubePlaylist": true,
+    "generateYouTubePlaylist": false,
     "platforms": [
       {
         "id": "youtube",
