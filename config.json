@@ -107,12 +107,6 @@
       "name": "DONATE KO-FI",
       "url": "https://ko-fi.com/skydarc",
       "icon": "heart"
-    },
-    {
-      "type": "image",
-      "src": "/assets/image01.png",
-      "height": 200,
-      "mobileDisplay": "remove"
     }
   ],
   "BANNER": {
