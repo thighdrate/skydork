@@ -82,18 +82,23 @@
           document.head.appendChild(avatarLink);
         }
         
-        // Preload background image based on screen width
+        // Preload background image based on screen width and aspect ratio
         var isMobile = window.innerWidth < 768;
         
-        if (isMobile && config.PROFILE.mobileBackground) {
-          // Preload mobile background if it exists and we're on mobile
-          var mobileBgLink = document.createElement('link');
-          mobileBgLink.rel = 'preload';
-          mobileBgLink.as = 'image';
-          mobileBgLink.href = config.PROFILE.mobileBackground;
-          mobileBgLink.media = '(max-width: 767px)';
-          document.head.appendChild(mobileBgLink);
-        } else if (!isMobile && config.PROFILE.background) {
+        if (isMobile) {
+          // On mobile, check aspect ratio to determine which background to use
+          var isPortrait = window.innerHeight > window.innerWidth;
+          var bgToPreload = (isPortrait && config.PROFILE.mobileBackground) ? config.PROFILE.mobileBackground : config.PROFILE.background;
+          
+          if (bgToPreload) {
+            var mobileBgLink = document.createElement('link');
+            mobileBgLink.rel = 'preload';
+            mobileBgLink.as = 'image';
+            mobileBgLink.href = bgToPreload;
+            mobileBgLink.media = '(max-width: 767px)';
+            document.head.appendChild(mobileBgLink);
+          }
+        } else if (config.PROFILE.background) {
           // Preload desktop background on desktop
           var bgLink = document.createElement('link');
           bgLink.rel = 'preload';
@@ -106,7 +111,7 @@
         console.error('Image preload failed:', error);
       });
     </script>
-    <script type="module" crossorigin src="/assets/index-CAPOZDBP.js"></script>
+    <script type="module" crossorigin src="/assets/index-CHLsG6GM.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BLfT_9Ze.css">
   </head>
   <body>
