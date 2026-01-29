@@ -25,6 +25,7 @@
     "mobileBackground": "assets/background-portait1.jpg",
     "mobileBackgroundGradient": false,
     "mobileBackgroundGradientOpacity": 50,
+    "mobilePortraitTopSpacing": 360,
     "headerRoundedCorners": false,
     "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
@@ -52,12 +53,6 @@
     }
   },
   "SOCIAL_LINKS": [
-    {
-      "type": "image",
-      "src": "/assets/image01.png",
-      "height": 200,
-      "mobileDisplay": "hide"
-    },
     {
       "name": "TWITCH",
       "url": "https://twitch.tv/skydarc",
@@ -89,12 +84,6 @@
       "icon": "discord"
     },
     {
-      "type": "image",
-      "src": "/assets/image02.png",
-      "height": 200,
-      "mobileDisplay": "remove"
-    },
-    {
       "name": "THRONE",
       "url": "https://throne.me/u/skydarc",
       "icon": "crown"
@@ -118,6 +107,12 @@
       "name": "DONATE KO-FI",
       "url": "https://ko-fi.com/skydarc",
       "icon": "heart"
+    },
+    {
+      "type": "image",
+      "src": "/assets/image01.png",
+      "height": 200,
+      "mobileDisplay": "remove"
     }
   ],
   "BANNER": {
