@@ -11,6 +11,9 @@
         "textMuted": "#a1a1aa",
         "titleText": "#fafafa",
         "platformTitles": "#fafafa",
+        "bioLine1": "#fafafa",
+        "bioLine2": "#e4e4e7",
+        "bioLine3": "#a1a1aa",
         "accent": "#3f3f46",
         "navButton": "#202024",
         "navButtonHover": "#36363c",
@@ -34,6 +37,9 @@
         "textMuted": "#a1a1aa",
         "titleText": "#fafafa",
         "platformTitles": "#fafafa",
+        "bioLine1": "#fafafa",
+        "bioLine2": "#d4d4d8",
+        "bioLine3": "#a1a1aa",
         "accent": "#52525b",
         "navButton": "#2a2a2d",
         "navButtonHover": "#4a4a4f",
@@ -57,6 +63,9 @@
         "textMuted": "#a3a3a3",
         "titleText": "#fafafa",
         "platformTitles": "#fafafa",
+        "bioLine1": "#fafafa",
+        "bioLine2": "#e5e5e5",
+        "bioLine3": "#a3a3a3",
         "accent": "#737373",
         "navButton": "#2f2f2f",
         "navButtonHover": "#575757",
@@ -80,6 +89,9 @@
         "textMuted": "#cbd5e1",
         "titleText": "#f8fafc",
         "platformTitles": "#f8fafc",
+        "bioLine1": "#f8fafc",
+        "bioLine2": "#e2e8f0",
+        "bioLine3": "#cbd5e1",
         "accent": "#94a3b8",
         "navButton": "#373f49",
         "navButtonHover": "#6d757d",
@@ -112,7 +124,10 @@
         "avatarShadow": "#333e4f",
         "textShadow": "#000102",
         "sidebarButtonBorder": "#171e2c",
-        "sidebarButtonBorderHover": "#475367"
+        "sidebarButtonBorderHover": "#475367",
+        "bioLine1": "#f1f5f9",
+        "bioLine2": "#cbd5e1",
+        "bioLine3": "#94a3b8"
       }
     },
     {
@@ -135,7 +150,10 @@
         "avatarShadow": "#087489",
         "textShadow": "#020405",
         "sidebarButtonBorder": "#0b333e",
-        "sidebarButtonBorderHover": "#198699"
+        "sidebarButtonBorderHover": "#198699",
+        "bioLine1": "#e0f2fe",
+        "bioLine2": "#bae6fd",
+        "bioLine3": "#7dd3fc"
       }
     },
     {
@@ -158,7 +176,10 @@
         "avatarShadow": "#25779e",
         "textShadow": "#020304",
         "sidebarButtonBorder": "#123143",
-        "sidebarButtonBorderHover": "#4e84a0"
+        "sidebarButtonBorderHover": "#4e84a0",
+        "bioLine1": "#e0f2fe",
+        "bioLine2": "#bae6fd",
+        "bioLine3": "#7dd3fc"
       }
     },
     {
@@ -181,7 +202,10 @@
         "avatarShadow": "#234888",
         "textShadow": "#020305",
         "sidebarButtonBorder": "#142546",
-        "sidebarButtonBorderHover": "#3e69a0"
+        "sidebarButtonBorderHover": "#3e69a0",
+        "bioLine1": "#f1f5f9",
+        "bioLine2": "#cbd5e1",
+        "bioLine3": "#94a3b8"
       }
     },
     {
@@ -204,7 +228,10 @@
         "avatarShadow": "#183f95",
         "textShadow": "#010204",
         "sidebarButtonBorder": "#0d204a",
-        "sidebarButtonBorderHover": "#25529c"
+        "sidebarButtonBorderHover": "#25529c",
+        "bioLine1": "#dbeafe",
+        "bioLine2": "#bfdbfe",
+        "bioLine3": "#93c5fd"
       }
     },
     {
@@ -227,7 +254,10 @@
         "avatarShadow": "#3f4099",
         "textShadow": "#020204",
         "sidebarButtonBorder": "#1c1b42",
-        "sidebarButtonBorderHover": "#5d64b4"
+        "sidebarButtonBorderHover": "#5d64b4",
+        "bioLine1": "#e0e7ff",
+        "bioLine2": "#c7d2fe",
+        "bioLine3": "#a5b4fc"
       }
     },
     {
@@ -250,7 +280,10 @@
         "avatarShadow": "#4e2596",
         "textShadow": "#020104",
         "sidebarButtonBorder": "#21103f",
-        "sidebarButtonBorderHover": "#6442b2"
+        "sidebarButtonBorderHover": "#6442b2",
+        "bioLine1": "#ede9fe",
+        "bioLine2": "#ddd6fe",
+        "bioLine3": "#c4b5fd"
       }
     },
     {
@@ -273,7 +306,10 @@
         "avatarShadow": "#0e746a",
         "textShadow": "#010303",
         "sidebarButtonBorder": "#072f2f",
-        "sidebarButtonBorderHover": "#1d8479"
+        "sidebarButtonBorderHover": "#1d8479",
+        "bioLine1": "#ccfbf1",
+        "bioLine2": "#99f6e4",
+        "bioLine3": "#5eead4"
       }
     },
     {
@@ -296,7 +332,10 @@
         "avatarShadow": "#218561",
         "textShadow": "#010303",
         "sidebarButtonBorder": "#0e382a",
-        "sidebarButtonBorderHover": "#449173"
+        "sidebarButtonBorderHover": "#449173",
+        "bioLine1": "#d1fae5",
+        "bioLine2": "#a7f3d0",
+        "bioLine3": "#6ee7b7"
       }
     },
     {
@@ -319,7 +358,10 @@
         "avatarShadow": "#0a7651",
         "textShadow": "#000402",
         "sidebarButtonBorder": "#053320",
-        "sidebarButtonBorderHover": "#20865f"
+        "sidebarButtonBorderHover": "#20865f",
+        "bioLine1": "#d1fae5",
+        "bioLine2": "#a7f3d0",
+        "bioLine3": "#6ee7b7"
       }
     },
     {
@@ -342,7 +384,10 @@
         "avatarShadow": "#146b34",
         "textShadow": "#010302",
         "sidebarButtonBorder": "#0b351b",
-        "sidebarButtonBorderHover": "#2e8c51"
+        "sidebarButtonBorderHover": "#2e8c51",
+        "bioLine1": "#d1fae5",
+        "bioLine2": "#6ee7b7",
+        "bioLine3": "#86efac"
       }
     },
     {
@@ -365,7 +410,10 @@
         "avatarShadow": "#53800f",
         "textShadow": "#010100",
         "sidebarButtonBorder": "#293e09",
-        "sidebarButtonBorderHover": "#75a627"
+        "sidebarButtonBorderHover": "#75a627",
+        "bioLine1": "#ecfccb",
+        "bioLine2": "#d9f99d",
+        "bioLine3": "#bef264"
       }
     },
     {
@@ -388,7 +436,10 @@
         "avatarShadow": "#454a30",
         "textShadow": "#010101",
         "sidebarButtonBorder": "#292d1c",
-        "sidebarButtonBorderHover": "#606744"
+        "sidebarButtonBorderHover": "#606744",
+        "bioLine1": "#f0f4e8",
+        "bioLine2": "#d4ddc4",
+        "bioLine3": "#b8c6a0"
       }
     },
     {
@@ -411,7 +462,10 @@
         "avatarShadow": "#9f1b1c",
         "textShadow": "#020000",
         "sidebarButtonBorder": "#4f0e0f",
-        "sidebarButtonBorderHover": "#ad3031"
+        "sidebarButtonBorderHover": "#ad3031",
+        "bioLine1": "#fee2e2",
+        "bioLine2": "#fca5a5",
+        "bioLine3": "#fbbf24"
       }
     },
     {
@@ -434,7 +488,10 @@
         "avatarShadow": "#750e2a",
         "textShadow": "#020001",
         "sidebarButtonBorder": "#3e0816",
-        "sidebarButtonBorderHover": "#8b1243"
+        "sidebarButtonBorderHover": "#8b1243",
+        "bioLine1": "#fce7f3",
+        "bioLine2": "#fbcfe8",
+        "bioLine3": "#f9a8d4"
       }
     },
     {
@@ -457,7 +514,10 @@
         "avatarShadow": "#a11d5a",
         "textShadow": "#030002",
         "sidebarButtonBorder": "#540f32",
-        "sidebarButtonBorderHover": "#ad3471"
+        "sidebarButtonBorderHover": "#ad3471",
+        "bioLine1": "#fce7f3",
+        "bioLine2": "#fbcfe8",
+        "bioLine3": "#f9a8d4"
       }
     },
     {
@@ -480,7 +540,10 @@
         "avatarShadow": "#933064",
         "textShadow": "#010102",
         "sidebarButtonBorder": "#451a35",
-        "sidebarButtonBorderHover": "#af5385"
+        "sidebarButtonBorderHover": "#af5385",
+        "bioLine1": "#fce7f3",
+        "bioLine2": "#f9a8d4",
+        "bioLine3": "#d8b4fe"
       }
     },
     {
@@ -503,7 +566,10 @@
         "avatarShadow": "#9f4855",
         "textShadow": "#020101",
         "sidebarButtonBorder": "#4f242a",
-        "sidebarButtonBorderHover": "#b66977"
+        "sidebarButtonBorderHover": "#b66977",
+        "bioLine1": "#ffe4e6",
+        "bioLine2": "#fecdd3",
+        "bioLine3": "#fda4af"
       }
     },
     {
@@ -526,7 +592,10 @@
         "avatarShadow": "#a35033",
         "textShadow": "#030101",
         "sidebarButtonBorder": "#53271a",
-        "sidebarButtonBorderHover": "#ba6f55"
+        "sidebarButtonBorderHover": "#ba6f55",
+        "bioLine1": "#fff5f0",
+        "bioLine2": "#ffd4c4",
+        "bioLine3": "#ffb399"
       }
     },
     {
@@ -549,7 +618,10 @@
         "avatarShadow": "#a04a0f",
         "textShadow": "#030100",
         "sidebarButtonBorder": "#522609",
-        "sidebarButtonBorderHover": "#b86a2c"
+        "sidebarButtonBorderHover": "#b86a2c",
+        "bioLine1": "#fff7ed",
+        "bioLine2": "#fed7aa",
+        "bioLine3": "#fdba74"
       }
     },
     {
@@ -572,7 +644,10 @@
         "avatarShadow": "#977408",
         "textShadow": "#030201",
         "sidebarButtonBorder": "#4e3d08",
-        "sidebarButtonBorderHover": "#b79511"
+        "sidebarButtonBorderHover": "#b79511",
+        "bioLine1": "#fefce8",
+        "bioLine2": "#fde047",
+        "bioLine3": "#facc15"
       }
     },
     {
@@ -595,7 +670,10 @@
         "avatarShadow": "#9d6509",
         "textShadow": "#030200",
         "sidebarButtonBorder": "#513407",
-        "sidebarButtonBorderHover": "#b88b1b"
+        "sidebarButtonBorderHover": "#b88b1b",
+        "bioLine1": "#fef3c7",
+        "bioLine2": "#fde68a",
+        "bioLine3": "#fcd34d"
       }
     },
     {
@@ -618,7 +696,10 @@
         "avatarShadow": "#733709",
         "textShadow": "#020101",
         "sidebarButtonBorder": "#432108",
-        "sidebarButtonBorderHover": "#9d5707"
+        "sidebarButtonBorderHover": "#9d5707",
+        "bioLine1": "#fef3c7",
+        "bioLine2": "#fed7aa",
+        "bioLine3": "#fdba74"
       }
     },
     {
@@ -641,7 +722,10 @@
         "avatarShadow": "#382562",
         "textShadow": "#000000",
         "sidebarButtonBorder": "#1c1231",
-        "sidebarButtonBorderHover": "#7561af"
+        "sidebarButtonBorderHover": "#7561af",
+        "bioLine1": "#f6f5f4",
+        "bioLine2": "#e4e4e7",
+        "bioLine3": "#b4b4bb"
       }
     },
     {
@@ -664,7 +748,10 @@
         "avatarShadow": "#471c89",
         "textShadow": "#030204",
         "sidebarButtonBorder": "#20103a",
-        "sidebarButtonBorderHover": "#5b2cab"
+        "sidebarButtonBorderHover": "#5b2cab",
+        "bioLine1": "#f5f3ff",
+        "bioLine2": "#ddd6fe",
+        "bioLine3": "#c4b5fd"
       }
     },
     {
@@ -687,7 +774,10 @@
         "avatarShadow": "#5b4b87",
         "textShadow": "#030204",
         "sidebarButtonBorder": "#2d2442",
-        "sidebarButtonBorderHover": "#8d82b7"
+        "sidebarButtonBorderHover": "#8d82b7",
+        "bioLine1": "#f3e8ff",
+        "bioLine2": "#e9d5ff",
+        "bioLine3": "#c4b5fd"
       }
     }
   ]
