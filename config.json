@@ -37,7 +37,6 @@
     "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
     "name": "Skydarc",
-    "headerDescription": "Latest content from YouTube, Instagram, TikTok & Twitch",
     "bio": {
       "line1": "Silly degen vampire VTuber",
       "line1Mobile": "show",
@@ -143,7 +142,7 @@
     ]
   },
   "FEEDS": {
-    "combineInstagramTikTok": true,
+    "combineInstagramTikTok": false,
     "generateYouTubePlaylist": false,
     "platforms": [
       {
@@ -157,12 +156,6 @@
         "name": "Instagram",
         "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/instagram.json",
         "color": "#E4405F"
-      },
-      {
-        "id": "tiktok",
-        "name": "TikTok",
-        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/tiktok.json",
-        "color": "#000000"
       },
       {
         "id": "twitch",
