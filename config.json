@@ -92,7 +92,7 @@
       "type": "image",
       "src": "/assets/image02.png",
       "height": 200,
-      "mobileDisplay": "hide"
+      "mobileDisplay": "remove"
     },
     {
       "name": "THRONE",
