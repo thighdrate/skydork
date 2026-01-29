@@ -6,11 +6,14 @@
     "headerBg": "rgba(26, 22, 37, 1)",
     "cardBg": "#231c2e",
     "text": "#f3e8ff",
-    "textSecondary": "#e9d5ff",
+    "textSecondary": "#8d82b7",
     "textMuted": "#c4b5fd",
-    "accent": "#a78bfa",
+    "titleText": "#f3e8ff",
+    "platformTitles": "#f3e8ff",
+    "accent": "#5b4b87",
     "navButton": "#443765",
     "navButtonHover": "#696089",
+    "navButtonText": "#f3e8ff",
     "loadingSpinner": "#c4b5fd",
     "error": "#f87171",
     "avatarShadow": "#5b4b87",
@@ -116,16 +119,16 @@
     }
   ],
   "BANNER": {
-    "enabled": false,
-    "title": "The Sky Daki is still available!",
-    "description": "Limited supplies - get yours while you can from <a href=\"https://kitsunecorners.com/collections/skydarc\">KitsuneCorners</a>",
+    "enabled": true,
+    "title": "You're all invited to my super cool donothon",
+    "description": "We're raising funds for a new outfit and a 3d model (all goals are in USD but bits/subs will also count towards the timer)",
     "width": 100,
     "expiresEnabled": false,
     "expiresDate": "",
     "images": [
       {
-        "url": "assets/daki.webp",
-        "link": "https://kitsunecorners.com/collections/skydarc",
+        "url": "assets/subathon.jpg",
+        "link": "",
         "height": 200
       },
       {
