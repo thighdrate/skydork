@@ -26,7 +26,7 @@
     "mobileBackgroundGradient": true,
     "mobileBackgroundGradientOpacity": 20,
     "mobilePortraitTopSpacing": 360,
-    "headerRoundedCorners": false,
+    "headerRoundedCorners": true,
     "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
     "name": "Skydarc",
