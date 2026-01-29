@@ -84,6 +84,12 @@
       "icon": "discord"
     },
     {
+      "type": "spacer"
+    },
+    {
+      "type": "spacer"
+    },
+    {
       "name": "THRONE",
       "url": "https://throne.me/u/skydarc",
       "icon": "crown"
