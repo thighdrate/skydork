@@ -46,8 +46,68 @@
     
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
-    <script type="module" crossorigin src="/assets/index-CAv_HGHa.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D5cMPuRl.css">
+    
+    <!-- Preload config.json to start download immediately -->
+    <link rel="preload" href="/config.json" as="fetch" crossorigin>
+    
+    <!-- DNS Prefetch for common feed domains -->
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+    <link rel="dns-prefetch" href="https://i.ytimg.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Start config fetch before JS bundle loads -->
+    <script>
+      window.__CONFIG_PROMISE__ = fetch('/config.json')
+        .then(function(response) {
+          if (!response.ok) throw new Error('Config fetch failed');
+          return response.json();
+        })
+        .catch(function(error) {
+          console.error('Config preload failed:', error);
+          return null;
+        });
+      
+      // Preload critical images once config is available
+      window.__CONFIG_PROMISE__.then(function(config) {
+        if (!config || !config.PROFILE) return;
+        
+        // Always preload avatar (small, critical, always visible)
+        if (config.PROFILE.avatar) {
+          var avatarLink = document.createElement('link');
+          avatarLink.rel = 'preload';
+          avatarLink.as = 'image';
+          avatarLink.href = config.PROFILE.avatar;
+          avatarLink.fetchpriority = 'high';
+          document.head.appendChild(avatarLink);
+        }
+        
+        // Preload background image based on screen width
+        var isMobile = window.innerWidth < 768;
+        
+        if (isMobile && config.PROFILE.mobileBackground) {
+          // Preload mobile background if it exists and we're on mobile
+          var mobileBgLink = document.createElement('link');
+          mobileBgLink.rel = 'preload';
+          mobileBgLink.as = 'image';
+          mobileBgLink.href = config.PROFILE.mobileBackground;
+          mobileBgLink.media = '(max-width: 767px)';
+          document.head.appendChild(mobileBgLink);
+        } else if (!isMobile && config.PROFILE.background) {
+          // Preload desktop background on desktop
+          var bgLink = document.createElement('link');
+          bgLink.rel = 'preload';
+          bgLink.as = 'image';
+          bgLink.href = config.PROFILE.background;
+          bgLink.media = '(min-width: 768px)';
+          document.head.appendChild(bgLink);
+        }
+      }).catch(function(error) {
+        console.error('Image preload failed:', error);
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index-B5BGWum-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BLfT_9Ze.css">
   </head>
   <body>
     <div id="root"></div>

@@ -3,7 +3,7 @@
   "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
   "COLOR_THEME": {
     "background": "rgba(14, 10, 20, 0.7)",
-    "headerBg": "#1a1625",
+    "headerBg": "rgba(26, 22, 37, 0.9)",
     "cardBg": "#231c2e",
     "text": "#f3e8ff",
     "textSecondary": "#e9d5ff",
@@ -22,6 +22,9 @@
     "background": "/assets/background.jpg",
     "backgroundGradient": false,
     "backgroundGradientOpacity": 10,
+    "mobileBackground": "assets/background-portait1.jpg",
+    "mobileBackgroundGradient": false,
+    "mobileBackgroundGradientOpacity": 50,
     "headerRoundedCorners": false,
     "socialIconGlow": false,
     "avatar": "/assets/avatar.jpg",
@@ -29,8 +32,11 @@
     "headerDescription": "Latest content from YouTube, Instagram, TikTok & Twitch",
     "bio": {
       "line1": "Silly degen vampire VTuber",
+      "line1Mobile": "show",
       "line2": "Live TUE / FRI / SUN @ 6 PM CET",
-      "line3": "Here you can find all my socials ♡"
+      "line2Mobile": "remove",
+      "line3": "Here you can find all my socials ♡",
+      "line3Mobile": "show"
     },
     "footer": "Updates every 15 minutes",
     "seo": {
@@ -49,7 +55,8 @@
     {
       "type": "image",
       "src": "/assets/image01.png",
-      "height": 200
+      "height": 200,
+      "mobileDisplay": "hide"
     },
     {
       "name": "TWITCH",
@@ -84,7 +91,8 @@
     {
       "type": "image",
       "src": "/assets/image02.png",
-      "height": 200
+      "height": 200,
+      "mobileDisplay": "show"
     },
     {
       "name": "THRONE",
