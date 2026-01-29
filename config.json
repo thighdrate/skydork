@@ -2,7 +2,7 @@
   "GLOBAL_FONT": "'Public Sans', sans-serif",
   "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
   "COLOR_THEME": {
-    "background": "rgba(14, 10, 20, 0.5)",
+    "background": "rgba(0, 0, 0, 0.3)",
     "headerBg": "rgba(26, 22, 37, 0.9)",
     "cardBg": "#231c2e",
     "text": "#f3e8ff",
