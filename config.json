@@ -23,7 +23,8 @@
     "avatarShadow": "#5b4b87",
     "textShadow": "#030204",
     "sidebarButtonBorder": "#2d2442",
-    "sidebarButtonBorderHover": "#8d82b7"
+    "sidebarButtonBorderHover": "#8d82b7",
+    "newContentIndicator": "#c4b5fd"
   },
   "PROFILE": {
     "background": "/assets/background.jpg",
@@ -140,6 +141,11 @@
         "height": 200
       }
     ]
+  },
+  "NEW_CONTENT": {
+    "enabled": true,
+    "style": "badge",
+    "ageThresholdHours": 24
   },
   "FEEDS": {
     "combineInstagramTikTok": false,
