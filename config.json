@@ -20,7 +20,7 @@
     "text": "#fafafa",
     "textSecondary": "#A8AED4",
     "textMuted": "#A8AED4",
-    "titleText": "#8d82b7",
+    "titleText": "rgba(180, 150, 255, 0.9)",
     "platformTitles": "#f3e8ff",
     "bannerTitle": "#e4e4e7",
     "bioLine1": "#A8AED4",
