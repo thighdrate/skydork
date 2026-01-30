@@ -52,8 +52,8 @@
     
     <!-- Preload critical images from config -->
     <link rel="preload" href="/assets/avatar.jpg" as="image" fetchpriority="high">
-    <link rel="preload" href="/assets/background.jpg" as="image" media="(min-width: 768px)">
-    <link rel="preload" href="assets/background-portait1.jpg" as="image" media="(max-width: 767px)">
+    <link rel="preload" href="/assets/background.jpg" as="image" fetchpriority="low" media="(min-width: 768px)">
+    <link rel="preload" href="assets/background-portait1.jpg" as="image" fetchpriority="low" media="(max-width: 767px)">
     
     <!-- Preconnect for external resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
