@@ -1,6 +1,6 @@
 {
   "GLOBAL_FONT": "'Public Sans', sans-serif",
-  "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
+  "GLOBAL_FONT_URL": "",
 "COLOR_THEME": {
     "background": "rgba(0, 0, 0, 0)",
     "headerBg": "rgba(26, 22, 37, 1)",
