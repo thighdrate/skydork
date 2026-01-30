@@ -50,11 +50,11 @@
     <!-- Preload config.json to start download immediately -->
     <link rel="preload" href="/config.json" as="fetch" crossorigin>
     
-    <!-- DNS Prefetch for common feed domains -->
-    <link rel="dns-prefetch" href="https://www.youtube.com">
-    <link rel="dns-prefetch" href="https://i.ytimg.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <!-- Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i4.ytimg.com" crossorigin>
+    <link rel="preconnect" href="https://static-cdn.jtvnw.net/" crossorigin>
     
     <!-- Start config fetch before JS bundle loads -->
     <script>
@@ -111,7 +111,7 @@
         console.error('Image preload failed:', error);
       });
     </script>
-    <script type="module" crossorigin src="/assets/index-DjL0NaTN.js"></script>
+    <script type="module" crossorigin src="/assets/index-DMi-NT2A.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CVR9qppH.css">
   </head>
   <body>
