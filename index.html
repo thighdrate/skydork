@@ -61,6 +61,12 @@
     <link rel="preconnect" href="https://static-cdn.jtvnw.net/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
+    <!-- Hide text until fonts load to prevent visible swap -->
+    <style>
+      html { background: #000; }
+      body { opacity: 0; transition: opacity 0.2s; }
+    </style>
+
     <!-- Start config fetch before JS bundle loads -->
     <script>
       window.__CONFIG_PROMISE__ = fetch('/config.json')
@@ -72,6 +78,14 @@
           console.error('Config preload failed:', error);
           return null;
         });
+      
+      // Show page when fonts ready or after 1 second timeout
+      var timeout = new Promise(function(resolve) { 
+        setTimeout(resolve, 1000); 
+      });
+      Promise.race([document.fonts.ready, timeout]).then(function() {
+        document.body.style.opacity = '1';
+      });
     </script>
     <script type="module" crossorigin src="/assets/index-DMi-NT2A.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CVR9qppH.css">
