@@ -13,7 +13,6 @@
         "platformTitles": "#fafafa",
         "bioLine1": "#fafafa",
         "bioLine2": "#e4e4e7",
-        "bioLine3": "#a1a1aa",
         "accent": "#3f3f46",
         "navButton": "#202024",
         "navButtonHover": "#36363c",
@@ -24,7 +23,8 @@
         "textShadow": "#010101",
         "sidebarButtonBorder": "#1b1b1e",
         "sidebarButtonBorderHover": "#3d3d44",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#202024"
       }
     },
     {
@@ -40,7 +40,6 @@
         "platformTitles": "#fafafa",
         "bioLine1": "#fafafa",
         "bioLine2": "#d4d4d8",
-        "bioLine3": "#a1a1aa",
         "accent": "#52525b",
         "navButton": "#2a2a2d",
         "navButtonHover": "#4a4a4f",
@@ -51,7 +50,8 @@
         "textShadow": "#010101",
         "sidebarButtonBorder": "#232326",
         "sidebarButtonBorderHover": "#54545a",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#2a2a2d"
       }
     },
     {
@@ -67,7 +67,6 @@
         "platformTitles": "#fafafa",
         "bioLine1": "#fafafa",
         "bioLine2": "#e5e5e5",
-        "bioLine3": "#a3a3a3",
         "accent": "#737373",
         "navButton": "#2f2f2f",
         "navButtonHover": "#575757",
@@ -78,7 +77,8 @@
         "textShadow": "#010101",
         "sidebarButtonBorder": "#1f1f1f",
         "sidebarButtonBorderHover": "#666666",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#2f2f2f"
       }
     },
     {
@@ -94,7 +94,6 @@
         "platformTitles": "#f8fafc",
         "bioLine1": "#f8fafc",
         "bioLine2": "#e2e8f0",
-        "bioLine3": "#cbd5e1",
         "accent": "#94a3b8",
         "navButton": "#373f49",
         "navButtonHover": "#6d757d",
@@ -105,7 +104,8 @@
         "textShadow": "#050608",
         "sidebarButtonBorder": "#2a3139",
         "sidebarButtonBorderHover": "#808891",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#373f49"
       }
     },
     {
@@ -131,8 +131,8 @@
         "sidebarButtonBorderHover": "#475367",
         "bioLine1": "#f1f5f9",
         "bioLine2": "#cbd5e1",
-        "bioLine3": "#94a3b8",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#1e2635"
       }
     },
     {
@@ -158,8 +158,8 @@
         "sidebarButtonBorderHover": "#198699",
         "bioLine1": "#e0f2fe",
         "bioLine2": "#bae6fd",
-        "bioLine3": "#7dd3fc",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#0a4351"
       }
     },
     {
@@ -185,8 +185,8 @@
         "sidebarButtonBorderHover": "#4e84a0",
         "bioLine1": "#e0f2fe",
         "bioLine2": "#bae6fd",
-        "bioLine3": "#7dd3fc",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#194b65"
       }
     },
     {
@@ -212,8 +212,8 @@
         "sidebarButtonBorderHover": "#3e69a0",
         "bioLine1": "#f1f5f9",
         "bioLine2": "#cbd5e1",
-        "bioLine3": "#94a3b8",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#19315c"
       }
     },
     {
@@ -239,8 +239,8 @@
         "sidebarButtonBorderHover": "#25529c",
         "bioLine1": "#dbeafe",
         "bioLine2": "#bfdbfe",
-        "bioLine3": "#93c5fd",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#10295f"
       }
     },
     {
@@ -266,8 +266,8 @@
         "sidebarButtonBorderHover": "#5d64b4",
         "bioLine1": "#e0e7ff",
         "bioLine2": "#c7d2fe",
-        "bioLine3": "#a5b4fc",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#292963"
       }
     },
     {
@@ -293,8 +293,8 @@
         "sidebarButtonBorderHover": "#6442b2",
         "bioLine1": "#ede9fe",
         "bioLine2": "#ddd6fe",
-        "bioLine3": "#c4b5fd",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#321860"
       }
     },
     {
@@ -320,8 +320,8 @@
         "sidebarButtonBorderHover": "#1d8479",
         "bioLine1": "#ccfbf1",
         "bioLine2": "#99f6e4",
-        "bioLine3": "#5eead4",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#0a4945"
       }
     },
     {
@@ -347,8 +347,8 @@
         "sidebarButtonBorderHover": "#449173",
         "bioLine1": "#d1fae5",
         "bioLine2": "#a7f3d0",
-        "bioLine3": "#6ee7b7",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#15553f"
       }
     },
     {
@@ -374,8 +374,8 @@
         "sidebarButtonBorderHover": "#20865f",
         "bioLine1": "#d1fae5",
         "bioLine2": "#a7f3d0",
-        "bioLine3": "#6ee7b7",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#074c32"
       }
     },
     {
@@ -401,8 +401,8 @@
         "sidebarButtonBorderHover": "#2e8c51",
         "bioLine1": "#d1fae5",
         "bioLine2": "#6ee7b7",
-        "bioLine3": "#86efac",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#0e4723"
       }
     },
     {
@@ -428,8 +428,8 @@
         "sidebarButtonBorderHover": "#75a627",
         "bioLine1": "#ecfccb",
         "bioLine2": "#d9f99d",
-        "bioLine3": "#bef264",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#35510b"
       }
     },
     {
@@ -455,8 +455,8 @@
         "sidebarButtonBorderHover": "#606744",
         "bioLine1": "#f0f4e8",
         "bioLine2": "#d4ddc4",
-        "bioLine3": "#b8c6a0",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#333723"
       }
     },
     {
@@ -482,8 +482,8 @@
         "sidebarButtonBorderHover": "#ad3031",
         "bioLine1": "#fee2e2",
         "bioLine2": "#fca5a5",
-        "bioLine3": "#fbbf24",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#590f11"
       }
     },
     {
@@ -509,8 +509,8 @@
         "sidebarButtonBorderHover": "#8b1243",
         "bioLine1": "#fce7f3",
         "bioLine2": "#fbcfe8",
-        "bioLine3": "#f9a8d4",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#4c0a1b"
       }
     },
     {
@@ -536,8 +536,8 @@
         "sidebarButtonBorderHover": "#ad3471",
         "bioLine1": "#fce7f3",
         "bioLine2": "#fbcfe8",
-        "bioLine3": "#f9a8d4",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#67133c"
       }
     },
     {
@@ -563,8 +563,8 @@
         "sidebarButtonBorderHover": "#af5385",
         "bioLine1": "#fce7f3",
         "bioLine2": "#f9a8d4",
-        "bioLine3": "#d8b4fe",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#5b2043"
       }
     },
     {
@@ -590,8 +590,8 @@
         "sidebarButtonBorderHover": "#b66977",
         "bioLine1": "#ffe4e6",
         "bioLine2": "#fecdd3",
-        "bioLine3": "#fda4af",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#662e36"
       }
     },
     {
@@ -617,8 +617,8 @@
         "sidebarButtonBorderHover": "#ba6f55",
         "bioLine1": "#fff5f0",
         "bioLine2": "#ffd4c4",
-        "bioLine3": "#ffb399",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#6a3221"
       }
     },
     {
@@ -644,8 +644,8 @@
         "sidebarButtonBorderHover": "#b86a2c",
         "bioLine1": "#fff7ed",
         "bioLine2": "#fed7aa",
-        "bioLine3": "#fdba74",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#68300b"
       }
     },
     {
@@ -671,8 +671,8 @@
         "sidebarButtonBorderHover": "#b79511",
         "bioLine1": "#fefce8",
         "bioLine2": "#fde047",
-        "bioLine3": "#facc15",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#634c08"
       }
     },
     {
@@ -698,8 +698,8 @@
         "sidebarButtonBorderHover": "#b88b1b",
         "bioLine1": "#fef3c7",
         "bioLine2": "#fde68a",
-        "bioLine3": "#fcd34d",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#674207"
       }
     },
     {
@@ -725,8 +725,8 @@
         "sidebarButtonBorderHover": "#9d5707",
         "bioLine1": "#fef3c7",
         "bioLine2": "#fed7aa",
-        "bioLine3": "#fdba74",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#532808"
       }
     },
     {
@@ -752,8 +752,8 @@
         "sidebarButtonBorderHover": "#7561af",
         "bioLine1": "#f6f5f4",
         "bioLine2": "#e4e4e7",
-        "bioLine3": "#b4b4bb",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#1f1731"
       }
     },
     {
@@ -779,8 +779,8 @@
         "sidebarButtonBorderHover": "#5b2cab",
         "bioLine1": "#f5f3ff",
         "bioLine2": "#ddd6fe",
-        "bioLine3": "#c4b5fd",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#2f1558"
       }
     },
     {
@@ -806,8 +806,8 @@
         "sidebarButtonBorderHover": "#8d82b7",
         "bioLine1": "#f3e8ff",
         "bioLine2": "#e9d5ff",
-        "bioLine3": "#c4b5fd",
-        "newContentIndicator": "#c4b5fd"
+        "newContentIndicator": "#c4b5fd",
+        "navButtonSecondary": "#443765"
       }
     }
   ]

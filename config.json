@@ -3,7 +3,7 @@
   "GLOBAL_FONT_URL": "https://fonts.googleapis.com/css2?display=swap&family=Public+Sans:ital,wght@0,700;1,700",
 "COLOR_THEME": {
     "background": "rgba(0, 0, 0, 0)",
-    "headerBg": "rgba(26, 22, 37, 1)",
+    "headerBg": "rgba(26, 22, 37, 0.8)",
     "cardBg": "#231c2e",
     "text": "#fafafa",
     "textSecondary": "#A8AED4",
@@ -13,11 +13,11 @@
     "bannerTitle": "#e4e4e7",
     "bioLine1": "#A8AED4",
     "bioLine2": "rgba(168, 174, 212, 0.5)",
-    "bioLine3": "#A8AED4",
     "accent": "#5b4b87",
     "navButton": "#443765",
     "navButtonHover": "#696089",
     "navButtonText": "#e4e4e7",
+    "navButtonSecondary": "#564175",
     "loadingSpinner": "#c4b5fd",
     "error": "#f87171",
     "avatarShadow": "#2d2442",
@@ -35,16 +35,15 @@
     "mobileBackgroundGradientOpacity": 20,
     "mobilePortraitTopSpacing": 360,
     "headerRoundedCorners": true,
-    "socialIconGlow": false,
+    "socialIconGlow": true,
+
     "avatar": "/assets/avatar.jpg",
     "name": "Skydarc",
     "bio": {
       "line1": "Silly vampire VTuber",
       "line1Mobile": "show",
       "line2": "Live TUE / FRI / SUN @ 6 PM CET",
-      "line2Mobile": "remove",
-      "line3": "Here you can find all my socials ♡",
-      "line3Mobile": "show"
+      "line2Mobile": "show"
     },
     "footer": "Updates every 15 minutes",
     "seo": {
@@ -150,6 +149,7 @@
   "FEEDS": {
     "combineInstagramTikTok": false,
     "generateYouTubePlaylist": false,
+    "showFollowerCount": true,
     "platforms": [
       {
         "id": "youtube",
