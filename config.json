@@ -1,6 +1,18 @@
 {
   "GLOBAL_FONT": "'Public Sans', sans-serif",
-  "GLOBAL_FONT_URL": "",
+  "GLOBAL_LETTER_SPACING": "0.03em",
+  "FONTS": {
+    "title": "global",
+    "titleLetterSpacing": "0.03em",
+    "bio": "global",
+    "bioLetterSpacing": "0.03em",
+    "sidebar": "global",
+    "sidebarLetterSpacing": "0.12em",
+    "platformTitles": "global",
+    "platformTitlesLetterSpacing": "0.03em",
+    "cardTitles": "global",
+    "cardTitlesLetterSpacing": "0.03em"
+  },
 "COLOR_THEME": {
     "background": "rgba(0, 0, 0, 0)",
     "headerBg": "rgba(26, 22, 37, 1)",
