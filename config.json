@@ -16,7 +16,8 @@
 "COLOR_THEME": {
     "background": "rgba(0, 0, 0, 0)",
     "headerBg": "rgba(26, 22, 37, 0.7)",
-    "cardBg": "rgba(35, 28, 46, 0.7)",
+    "cardBg": "rgba(35, 28, 46, 1)",
+    "sectionBg": "rgba(35, 28, 46, 0.7)",
     "text": "#fafafa",
     "textSecondary": "#A8AED4",
     "textMuted": "#A8AED4",
