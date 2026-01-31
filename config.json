@@ -43,7 +43,7 @@
     "background": "/assets/background.jpg",
     "backgroundGradient": true,
     "backgroundGradientOpacity": 40,
-    "mobileBackground": "/assets/background-portait1.jpg",
+    "mobileBackground": "/assets/background-portrait2.jpg",
     "mobileBackgroundGradient": true,
     "mobileBackgroundGradientOpacity": 20,
     "mobileBackgroundLandscape": "/assets/background.jpg",
