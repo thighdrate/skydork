@@ -48,7 +48,7 @@
     "mobileBackgroundGradientOpacity": 20,
     "mobileBackgroundLandscape": "/assets/background.jpg",
     "mobileBackgroundLandscapeGradient": true,
-    "mobileBackgroundLandscapeGradientOpacity": 40,
+    "mobileBackgroundLandscapeGradientOpacity": 20,
     "mobilePortraitTopSpacing": 360,
     "headerBackground": "",
     "headerHeight": "auto",
