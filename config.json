@@ -15,7 +15,7 @@
   },
 "COLOR_THEME": {
     "background": "rgba(0, 0, 0, 0)",
-    "headerBg": "rgba(26, 22, 37, 0.7)",
+    "headerBg": "rgba(26, 22, 37, 0.4)",
     "cardBg": "rgba(35, 28, 46, 1)",
     "sectionBg": "rgba(35, 28, 46, 0.7)",
     "text": "#fafafa",
@@ -63,7 +63,7 @@
       "line2": "Live TUE / FRI / SUN @ 6 PM CET",
       "line2Mobile": "show"
     },
-    "footer": "Updates every 15 minutes",
+    "footer": "♡ bleh ♡ bleh ♡",
     "seo": {
       "title": "Skydarc TV | Latest Videos & Streams",
       "titleShort": "Skydarc TV",
@@ -142,7 +142,7 @@
   "BANNER": {
     "enabled": true,
     "title": "You're all invited to my super cool donothon",
-    "description": "We're raising funds for a new outfit and a 3d model (all goals are in USD but bits/subs will also count towards the timer)",
+    "description": "We're raising funds for a new outfit and a 3D model (all goals are in USD but bits/subs will also count towards the timer)",
     "width": 100,
     "expiresEnabled": false,
     "expiresDate": "",
@@ -166,13 +166,13 @@
   },
   "FEEDS": {
     "combineInstagramTikTok": false,
-    "generateYouTubePlaylist": false,
-    "showFollowerCount": true,
+    "generateYouTubePlaylist": true,
+    "showFollowerCount": false,
     "platforms": [
       {
         "id": "youtube",
         "name": "YouTube",
-        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/youtube.json",
+        "feedUrl": "https://pub-fabbb3f879b9466a9723217a57f7cba5.r2.dev/skydarc/feeds/youtube2.json",
         "color": "#FF0000"
       },
       {
