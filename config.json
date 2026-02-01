@@ -62,7 +62,9 @@
     "headerRoundedCorners": true,
     "socialIconGlow": true,
     "landingPage": {
-      "videosButtonText": "Videos"
+      "videosButtonText": "Videos",
+      "cornerImage": "/blehblehbleh.png",
+      "cornerImageSize": 320
     },
 
     "avatar": "/assets/avatar.jpg",
@@ -74,7 +76,7 @@
       "line2": "Live TUE / FRI / SUN @ 6 PM CET",
       "line2Mobile": "show"
     },
-    "footer": "♡ bleh ♡ bleh ♡",
+    "footer": "♡ bleh ♡ bleh ♡ bleh ♡",
     "seo": {
       "title": "Skydarc TV",
       "titleShort": "Skydarc TV",
