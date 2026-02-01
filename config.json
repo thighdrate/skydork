@@ -152,7 +152,7 @@
   ],
   "BANNER": {
     "enabled": true,
-    "openBehavior": "remember",
+    "openBehavior": "always-closed",
     "title": "You're all invited to my super cool donothon",
     "description": "We're raising funds for a new outfit and a 3D model (all goals are in USD but bits/subs will also count towards the timer)",
     "width": 100,
