@@ -49,7 +49,7 @@
   "PROFILE": {
     "background": "/assets/background.jpg",
     "backgroundGradient": true,
-    "backgroundGradientOpacity": 40,
+    "backgroundGradientOpacity": 20,
     "mobileBackground": "/dance1.mp4",
     "mobileBackgroundGradient": true,
     "mobileBackgroundGradientOpacity": 50,
