@@ -50,9 +50,9 @@
     "background": "/assets/background.jpg",
     "backgroundGradient": true,
     "backgroundGradientOpacity": 40,
-    "mobileBackground": "/assets/background-portrait2.jpg",
+    "mobileBackground": "/dance1.mp4",
     "mobileBackgroundGradient": true,
-    "mobileBackgroundGradientOpacity": 20,
+    "mobileBackgroundGradientOpacity": 50,
     "mobileBackgroundLandscape": "/assets/background.jpg",
     "mobileBackgroundLandscapeGradient": true,
     "mobileBackgroundLandscapeGradientOpacity": 20,
@@ -61,10 +61,16 @@
     "headerHeight": "auto",
     "headerRoundedCorners": true,
     "socialIconGlow": true,
+    "landingPage": {
+      "enabled": true,
+      "title": "Skydarc",
+      "videosButtonText": "Videos"
+    },
 
     "avatar": "/assets/avatar.jpg",
     "name": "Skydarc",
     "bio": {
+      "about": "I'm Skydarc, a vampire VTuber!",
       "line1": "Here you can find all my socials ♡",
       "line1Mobile": "show",
       "line2": "Live TUE / FRI / SUN @ 6 PM CET",
