@@ -61,10 +61,10 @@
     "headerHeight": "auto",
     "headerRoundedCorners": true,
     "socialIconGlow": true,
+    "cornerImage": "/blehblehbleh.png",
+    "cornerImageSize": 320,
     "landingPage": {
-      "videosButtonText": "Videos",
-      "cornerImage": "/blehblehbleh.png",
-      "cornerImageSize": 320
+      "videosButtonText": "Videos"
     },
 
     "avatar": "/assets/avatar.jpg",
