@@ -1,4 +1,4 @@
-{
+asd{
   "GLOBAL_FONT": "'Public Sans', sans-serif",
   "GLOBAL_LETTER_SPACING": "0.03em",
   "FONTS": {
@@ -61,7 +61,7 @@
     "headerRoundedCorners": true,
     "socialIconGlow": true,
     "cornerImage": "/blehblehbleh2.png",
-    "cornerImageSize": 320,
+    "cornerImageSize": 240,
     "landingPage": {
       "videosButtonText": "Videos"
     },
