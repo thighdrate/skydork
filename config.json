@@ -90,6 +90,12 @@
     }
   },
   "SOCIAL_LINKS": [
+   {
+      "type": "image",
+      "src": "/assets/image01.png",
+      "height": 200,
+      "mobileDisplay": "show"
+    },
     {
       "name": "TWITCH",
       "url": "https://twitch.tv/skydarc",
@@ -121,10 +127,10 @@
       "icon": "discord"
     },
     {
-      "type": "spacer"
-    },
-    {
-      "type": "spacer"
+      "type": "image",
+      "src": "/assets/image02.png",
+      "height": 200,
+      "mobileDisplay": "show"
     },
     {
       "name": "THRONE",
