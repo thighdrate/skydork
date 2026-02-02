@@ -2,7 +2,7 @@
   "GLOBAL_FONT": "'Public Sans', sans-serif",
   "GLOBAL_LETTER_SPACING": "0.03em",
   "FONTS": {
-    "title": "global",
+    "title": "'Zilla Slab', serif",
     "titleLetterSpacing": "0.03em",
     "bio": "'Zilla Slab', serif",
     "bioLetterSpacing": "0.03em",
@@ -89,12 +89,6 @@
     }
   },
   "SOCIAL_LINKS": [
-   {
-      "type": "image",
-      "src": "/assets/image01.png",
-      "height": 200,
-      "mobileDisplay": "show"
-    },
     {
       "name": "TWITCH",
       "url": "https://twitch.tv/skydarc",
@@ -127,7 +121,7 @@
     },
     {
       "type": "image",
-      "src": "/assets/image02.png",
+      "src": "/assets/image01.png",
       "height": 200,
       "mobileDisplay": "show"
     },
@@ -158,9 +152,9 @@
     },
    {
       "type": "image",
-      "src": "/blehblehbleh.png",
+      "src": "/assets/image02.png",
       "height": 200,
-      "mobileDisplay": "mobile-only"
+      "mobileDisplay": "show"
     }
 
   ],
