@@ -165,13 +165,13 @@
       background-image: var(--background-desktop);
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1279px) {
       .background-image {
         background-image: var(--background-mobile-portrait);
       }
     }
     
-    @media (max-width: 768px) and (orientation: landscape) {
+    @media (max-width: 1279px) and (orientation: landscape) {
       .background-image {
         background-image: var(--background-mobile-landscape);
       }
@@ -249,37 +249,7 @@
       max-width: calc((100vw - var(--max-width)) / 2 - 32px);
     }
     
-    @media (min-width: 769px) and (max-width: calc(1196px + 64px + 128px)) {
-      body.show-content .corner-image {
-        max-width: 64px;
-      }
-    }
-    
-    @media (min-width: 769px) and (max-width: calc(400px + 64px + 128px)) {
-      body:not(.show-content) .corner-image {
-        max-width: 64px;
-      }
-    }
-    
-    @media (min-width: 769px) and (max-width: calc(1196px + 64px + 64px)) {
-      body.show-content .corner-image {
-        display: none;
-      }
-    }
-    
-    @media (min-width: 769px) and (max-width: calc(400px + 64px + 64px)) {
-      body:not(.show-content) .corner-image {
-        display: none;
-      }
-    }
-    
-    @media (max-width: 768px) {
-      .corner-image {
-        display: none !important;
-      }
-    }
-    
-    @media (max-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
+    @media (max-width: 1279px) {
       .corner-image {
         display: none !important;
       }
@@ -297,7 +267,7 @@
       margin-top: 32px;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1279px) {
       .bio-section {
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(10px);
@@ -323,7 +293,7 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1279px) {
       .bio-about {
         font-size: 18px;
       }
@@ -339,7 +309,7 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1279px) {
       .bio-line1 {
         font-size: 16px;
       }
@@ -355,7 +325,7 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1279px) {
       .bio-line2 {
         display: none;
       }
@@ -469,7 +439,7 @@
       margin: 8px 0;
     }
     
-    .videos-button-container {
+    .videos-section-container {
       position: fixed;
       top: 0;
       right: 0;
@@ -477,12 +447,17 @@
       z-index: 100;
     }
     
+    .videos-button-container {
+      width: 100%;
+    }
+    
+    .videos-button-container .social-button {
+      width: 100%;
+    }
+    
     .youtube-preview-container {
-      position: fixed;
-      top: 76px;
-      right: 0;
-      width: 240px;
-      z-index: 101;
+      width: 100%;
+      margin-top: 16px;
     }
     
     .youtube-preview-card {
@@ -506,25 +481,16 @@
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
     }
     
-    @media (max-width: 768px) {
-      .videos-button-container {
+    @media (max-width: 1279px) {
+      .videos-section-container {
         position: static;
-        margin-top: 24px;
         width: 100%;
         max-width: 400px;
+        margin-top: 24px;
       }
       
       .youtube-preview-container {
         display: none;
-      }
-    }
-    
-    @media (max-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
-      .videos-button-container {
-        position: static;
-        margin-top: 24px;
-        width: 100%;
-        max-width: 400px;
       }
     }
     
@@ -536,16 +502,7 @@
       z-index: 100;
     }
     
-    @media (max-width: 768px) {
-      .back-button-container {
-        position: static;
-        margin-bottom: 24px;
-        width: 100%;
-        max-width: 400px;
-      }
-    }
-    
-    @media (max-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
+    @media (max-width: 1279px) {
       .back-button-container {
         position: static;
         margin-bottom: 24px;
@@ -570,16 +527,6 @@
         border: 1px solid rgba(173, 140, 207, 0.15);
         padding: 16px 16px 8px 16px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      }
-    }
-    
-    @media (max-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
-      .platform-row {
-        background: none;
-        border-radius: 0;
-        border: none;
-        padding: 0;
-        box-shadow: none;
       }
     }
     
@@ -622,17 +569,7 @@
       opacity: 1;
     }
     
-    @media (max-width: 768px) {
-      .platform-controls {
-        opacity: 1;
-      }
-      
-      .platform-header {
-        display: none;
-      }
-    }
-    
-    @media (max-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
+    @media (max-width: 1279px) {
       .platform-controls {
         opacity: 1;
       }
@@ -914,7 +851,7 @@
       padding: 24px;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1279px) {
       .main-container {
         padding: 0 16px;
       }
@@ -938,31 +875,7 @@
       }
     }
     
-    @media (max-width: 768px) and (orientation: landscape) {
-      .feed-card.instagram,
-      .feed-card.tiktok {
-        width: calc((100vw - 80px) / 4);
-      }
-      
-      .feed-card.youtube,
-      .feed-card.twitch {
-        width: calc((100vw - 48px) / 2);
-      }
-    }
-    
-    @media (max-width: 1024px) and (orientation: landscape) and (max-height: 768px) {
-      .main-container {
-        padding: 0 16px;
-      }
-      
-      .landing-page {
-        padding: 16px 0;
-      }
-      
-      .feed-container {
-        padding: 0;
-      }
-      
+    @media (max-width: 1279px) and (orientation: landscape) {
       .feed-card.instagram,
       .feed-card.tiktok {
         width: calc((100vw - 80px) / 4);
@@ -1042,16 +955,18 @@
         </div>
       </div>
       
-      <!-- Videos Button (Desktop: Fixed, Mobile: In-flow) -->
-      <div class="videos-button-container">
-        <button class="social-button" onclick="showContent()">
-          <div class="social-button-icon" data-icon="videos"></div>
-          <span class="social-button-text">LATEST VIDEOS</span>
-        </button>
-      </div>
-      
-      <!-- YouTube Preview Card (Desktop Only) -->
-      <div id="youtubePreview" class="youtube-preview-container" style="display: none;">
+      <!-- Videos Button & Preview (Desktop: Fixed, Mobile: In-flow) -->
+      <div class="videos-section-container">
+        <div class="videos-button-container">
+          <button class="social-button" onclick="showContent()">
+            <div class="social-button-icon" data-icon="videos"></div>
+            <span class="social-button-text">LATEST VIDEOS</span>
+          </button>
+        </div>
+        
+        <!-- YouTube Preview Card (Desktop Only) -->
+        <div id="youtubePreview" class="youtube-preview-container" style="display: none;">
+        </div>
       </div>
     </div>
     
@@ -1201,7 +1116,7 @@
     }
     
     async function loadYoutubePreview() {
-      if (state.isMobile || state.youtubePreviewLoaded) {
+      if (state.youtubePreviewLoaded) {
         return;
       }
       
@@ -1259,8 +1174,7 @@
     }
     
     function detectDevice() {
-      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-      state.isMobile = isTouchDevice || window.innerWidth < 768;
+      state.isMobile = window.innerWidth < 1280;
     }
     
     function getRelativeTime(dateString) {
@@ -1464,6 +1378,7 @@
         clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(() => {
           detectDevice();
+          loadYoutubePreview();
         }, 250);
       });
     }
