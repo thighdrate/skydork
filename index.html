@@ -165,13 +165,13 @@
       background-image: var(--background-desktop);
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .background-image {
         background-image: var(--background-mobile-portrait);
       }
     }
     
-    @media (max-width: 1279px) and (orientation: landscape) {
+    @media (max-width: 768px) and (orientation: landscape) {
       .background-image {
         background-image: var(--background-mobile-landscape);
       }
@@ -267,7 +267,7 @@
       margin-top: 32px;
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .bio-section {
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(10px);
@@ -293,7 +293,7 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .bio-about {
         font-size: 18px;
       }
@@ -309,7 +309,7 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .bio-line1 {
         font-size: 16px;
       }
@@ -325,7 +325,7 @@
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .bio-line2 {
         display: none;
       }
@@ -460,6 +460,10 @@
       margin-top: 16px;
     }
     
+    .youtube-preview-container:empty {
+      display: none;
+    }
+    
     .youtube-preview-card {
       cursor: pointer;
       width: 100%;
@@ -569,7 +573,7 @@
       opacity: 1;
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .platform-controls {
         opacity: 1;
       }
@@ -851,7 +855,7 @@
       padding: 24px;
     }
     
-    @media (max-width: 1279px) {
+    @media (max-width: 768px) {
       .main-container {
         padding: 0 16px;
       }
@@ -875,7 +879,7 @@
       }
     }
     
-    @media (max-width: 1279px) and (orientation: landscape) {
+    @media (max-width: 768px) and (orientation: landscape) {
       .feed-card.instagram,
       .feed-card.tiktok {
         width: calc((100vw - 80px) / 4);
@@ -965,7 +969,7 @@
         </div>
         
         <!-- YouTube Preview Card (Desktop Only) -->
-        <div id="youtubePreview" class="youtube-preview-container" style="display: none;">
+        <div id="youtubePreview" class="youtube-preview-container">
         </div>
       </div>
     </div>
@@ -1154,17 +1158,14 @@
         if (imgElement) {
           imgElement.onload = () => {
             cardElement.classList.add('loaded');
-            previewContainer.style.display = 'block';
           };
           // If image is already cached and loaded
           if (imgElement.complete) {
             cardElement.classList.add('loaded');
-            previewContainer.style.display = 'block';
           }
         } else {
           // No image, show immediately
           cardElement.classList.add('loaded');
-          previewContainer.style.display = 'block';
         }
         
         state.youtubePreviewLoaded = true;
@@ -1174,7 +1175,8 @@
     }
     
     function detectDevice() {
-      state.isMobile = window.innerWidth < 1280;
+      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+      state.isMobile = isTouchDevice || window.innerWidth < 768;
     }
     
     function getRelativeTime(dateString) {
