@@ -123,17 +123,12 @@
       letter-spacing: var(--letter-spacing-global);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      animation: fadeInFromBlack 1.0s ease-out;
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
     }
     
-    @keyframes fadeInFromBlack {
-      from {
-        opacity: 0;
-        background-color: #000;
-      }
-      to {
-        opacity: 1;
-      }
+    body.loaded {
+      opacity: 1;
     }
     
     .line-clamp-2 {
@@ -1370,6 +1365,42 @@
       });
       
       detectDevice();
+      
+      // Wait for background image to load before fading in
+      const backgroundElement = document.querySelector('.background-image');
+      const backgroundImage = window.getComputedStyle(backgroundElement).backgroundImage;
+      
+      // Extract URL from backgroundImage string
+      const urlMatch = backgroundImage.match(/url\(["']?(.+?)["']?\)/);
+      
+      let fadeInTriggered = false;
+      const triggerFadeIn = () => {
+        if (!fadeInTriggered) {
+          fadeInTriggered = true;
+          document.body.classList.add('loaded');
+        }
+      };
+      
+      // Set 1 second timeout as fallback
+      const timeout = setTimeout(triggerFadeIn, 1000);
+      
+      if (urlMatch && urlMatch[1]) {
+        const img = new Image();
+        img.onload = () => {
+          clearTimeout(timeout);
+          triggerFadeIn();
+        };
+        img.onerror = () => {
+          clearTimeout(timeout);
+          triggerFadeIn();
+        };
+        img.src = urlMatch[1];
+      } else {
+        // No background image found, fade in immediately
+        clearTimeout(timeout);
+        triggerFadeIn();
+      }
+      
       loadYoutubePreview();
       let resizeTimeout;
       window.addEventListener('resize', () => {
