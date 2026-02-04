@@ -483,22 +483,17 @@
       right: 0;
       width: 240px;
       z-index: 101;
-      opacity: 0;
-      animation: fadeInSlide 2.2s ease-out 1s both;
-    }
-    
-    @keyframes fadeInSlide {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
     }
     
     .youtube-preview-card {
       cursor: pointer;
       width: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .youtube-preview-card.loaded {
+      opacity: 1;
     }
     
     .youtube-preview-card .feed-card {
@@ -801,6 +796,10 @@
       overflow: hidden;
     }
     
+    .youtube-preview-card .card-image-container {
+      min-height: 135px;
+    }
+    
     .feed-card.instagram .card-image-container,
     .feed-card.tiktok .card-image-container {
       padding-top: 177.78%;
@@ -1053,7 +1052,6 @@
       
       <!-- YouTube Preview Card (Desktop Only) -->
       <div id="youtubePreview" class="youtube-preview-container" style="display: none;">
-        <!-- Card will be inserted here by JavaScript -->
       </div>
     </div>
     
@@ -1207,6 +1205,9 @@
         return;
       }
       
+      const previewContainer = document.getElementById('youtubePreview');
+      if (!previewContainer) return;
+      
       try {
         const response = await fetch(FEED_URLS.youtube);
         if (!response.ok) return;
@@ -1217,9 +1218,6 @@
         if (items.length === 0) return;
         
         const latestVideo = items[0];
-        const previewContainer = document.getElementById('youtubePreview');
-        
-        if (!previewContainer) return;
         
         // Render the feed card without onclick, wrap it in a clickable div
         const cardHtml = renderFeedCard(latestVideo, 'youtube', true)
@@ -1231,8 +1229,29 @@
           </div>
         `;
         
+        // Insert card HTML but keep it hidden
         previewContainer.innerHTML = wrapperHtml;
-        previewContainer.style.display = 'block';
+        
+        // Wait for the image to load before showing the card
+        const cardElement = previewContainer.querySelector('.youtube-preview-card');
+        const imgElement = cardElement.querySelector('.card-image');
+        
+        if (imgElement) {
+          imgElement.onload = () => {
+            cardElement.classList.add('loaded');
+            previewContainer.style.display = 'block';
+          };
+          // If image is already cached and loaded
+          if (imgElement.complete) {
+            cardElement.classList.add('loaded');
+            previewContainer.style.display = 'block';
+          }
+        } else {
+          // No image, show immediately
+          cardElement.classList.add('loaded');
+          previewContainer.style.display = 'block';
+        }
+        
         state.youtubePreviewLoaded = true;
       } catch (error) {
         console.error('Failed to load YouTube preview:', error);
